@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JSTACK - Search Jobs</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Navbar Section -->
+  <header>
+    <div id="navbar" class="obj-width">
+      <a href="index.html"><img class="logo" src="images/logo.png" alt="JSTACK Logo" /></a>
+
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jobs/job.html">Browse Jobs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><button id="w-btn">Join</button></li>
+      </ul>
+
+      <i id="bar" class="bx bx-menu"></i>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-box obj-width">
+      <div class="h-left">
+        <h1>Find the perfect freelance services for your business</h1>
+        <p>Work with talented people at the most affordable price to get the most out of your time and cost.</p>
+        <div class="search">
+          <input type="text" placeholder="Search your job here.." />
+          <a class="g-btn" href="#">Search</a>
+        </div>
+      </div>
+
+      <div class="h-right">
+        <img src="images/hero1.PNG" alt="Hero Illustration" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features sec-space obj-width">
+    <h2>Need something done?</h2>
+    <p>Most viewed and all-time top-selling services</p>
+
+    <div class="fe-box">
+      <div>
+        <img src="images/fe 1.png" alt="Post a Job Icon">
+        <h3>Post a Job</h3>
+        <p>It's free and easy to post a job. Simply fill in a title, description.</p>
+      </div>
+      <div>
+        <img src="images/fe 2.png" alt="Choose Freelancers Icon">
+        <h3>Choose Freelancers</h3>
+        <p>Select from thousands of experts ready to help your business grow.</p>
+      </div>
+      <div>
+        <img src="images/fe 3.png" alt="Pay Safely Icon">
+        <h3>Pay Safely</h3>
+        <p>Use secure payment systems to ensure safe and easy transactions.</p>
+      </div>
+      <div>
+        <img src="images/fe 4.png" alt="Help Icon">
+        <h3>We're Here to Help</h3>
+        <p>24/7 support for both clients and freelancers worldwide.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Job Listing Section -->
+  <section class="features sec-space obj-width jobs">
+    <h2>Jobs in Demand</h2>
+    <p>Most viewed and all-time top-selling services</p>
+
+    <ul class="job-id">
+      <li data-target="all" class="active">Recent Jobs</li>
+      <li data-target="freelancer">Freelancer</li>
+      <li data-target="fulltime">Full Time</li>
+      <li data-target="parttime">Part Time</li>
+    </ul>
+
+    <ul class="jobs-container">
+      <li data-item="fulltime" class="jList">
+        <img src="images/google.png" alt="Google Logo">
+        <h3>Web Developer</h3>
+        <p>$900–1200/m</p>
+        <span class="key">Full Time</span>
+      </li>
+
+      <li data-item="freelancer" class="jList">
+        <img src="images/uber.png" alt="Uber Logo">
+        <h3>Freelancer</h3>
+        <p>$900–1200/m</p>
+        <span class="key">Freelancer</span>
+      </li>
+
+      <li data-item="parttime" class="jList">
+        <img src="images/linkedin.png" alt="LinkedIn Logo">
+        <h3>Business Associate</h3>
+        <p>$900–1200/m</p>
+        <span class="key">Part Time</span>
+      </li>
+
+      <li data-item="fulltime" class="jList">
+        <img src="images/facebook.png" alt="Facebook Logo">
+        <h3>Digital Marketing</h3>
+        <p>$900–1200/m</p>
+        <span class="key">Full Time</span>
+      </li>
+
+      <li data-item="parttime" class="jList">
+        <img src="images/yahoo.png" alt="Yahoo Logo">
+        <h3>User Experience</h3>
+        <p>$900–1200/m</p>
+        <span class="key">Part Time</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Brand Section -->
+  <section class="trust sec-space obj-width">
+    <h2>Trusted by the World's Best</h2>
+    <p>Most viewed and all-time top-selling services</p>
+
+    <div class="t-box">
+      <img src="images/t1.png" alt="Brand 1">
+      <img src="images/t2.png" alt="Brand 2">
+      <img src="images/t3.png" alt="Brand 3">
+      <img src="images/t4.png" alt="Brand 4">
+      <img src="images/t5.png" alt="Brand 5">
+      <img src="images/t6.png" alt="Brand 6">
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="trust sec-space obj-width">
+    <h2>Highest Rated Freelancers</h2>
+    <p>Most viewed and all-time top-selling services</p>
+
+    <div class="team-container">
+      <div class="f1-box">
+        <img src="images/fl-1.png" alt="Freelancer Robert Fox">
+        <h3>Robert Fox</h3>
+        <div class="skill">
+          <span class="key">HTML</span>
+          <span class="key">CSS</span>
+          <span class="key">JS</span>
+        </div>
+        <a href="#" class="g-btn">View Profile</a>
+      </div>
+
+      <div class="f1-box">
+        <img src="images/fl-2.png" alt="Freelancer Kristin Watson">
+        <h3>Kristin Watson</h3>
+        <div class="skill">
+          <span class="key">React</span>
+          <span class="key">Node</span>
+          <span class="key">MongoDB</span>
+        </div>
+        <a href="#" class="g-btn">View Profile</a>
+      </div>
+
+      <div class="f1-box">
+        <img src="images/fl-3.png" alt="Freelancer Darrell Steward">
+        <h3>Darrell Steward</h3>
+        <div class="skill">
+          <span class="key">Python</span>
+          <span class="key">Django</span>
+          <span class="key">API</span>
+        </div>
+        <a href="#" class="g-btn">View Profile</a>
+      </div>
+
+      <div class="f1-box">
+        <img src="images/fl-4.png" alt="Freelancer Theresa Webb">
+        <h3>Theresa Webb</h3>
+        <div class="skill">
+          <span class="key">UI</span>
+          <span class="key">UX</span>
+          <span class="key">Figma</span>
+        </div>
+        <a href="#" class="g-btn">View Profile</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="obj-width">
+      <div class="top">
+        <div>
+          <img class="logo" src="images/logo.png" alt="JSTACK logo">
+          <p>Search your desired jobs.</p>
+        </div>
+
+        <div>
+          <a href="https://www.linkedin.com/in/a-prashanth-6a4280325/"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://www.facebook.com/"><i class='bx bxl-facebook-square'></i></a>
+          <a href="https://github.com/Prashanth415"><i class='bx bxl-github'></i></a>
+          <a href="https://x.com/?lang=en-in"><i class='bx bxl-twitter'></i></a>
+        </div>
+      </div>
+      <div class="bottom">
+        <div>
+          <h3>Project</h3>
+          <a href="#">Changelog</a>
+          <a href="#">Status</a>
+          <a href="#">License</a>
+          <a href="#">All Versions</a>
+        </div>
+        <div>
+          <h3>Community</h3>
+          <a href="#">GitHub</a>
+          <a href="#">Issues</a>
+          <a href="#">Project</a>
+          <a href="#">Twitter</a>
+        </div>
+        <div>
+          <h3>Help</h3>
+          <a href="#">Support</a>
+          <a href="#">Troubleshooting</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div>
+          <h3>Others</h3>
+          <a href="#">Team of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">License</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+  <script src="toggle.js"></script>
+</body>
+
+</html>
