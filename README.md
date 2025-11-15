@@ -1,29 +1,68 @@
-# JSTACK-Job-Portal-Website-By-Prashanth415
+💼 JSTACK Job Portal Website
 
-Welcome to JSTACK, a job portal website project aimed at helping job seekers and employers connect efficiently. This repository contains all the necessary files and resources to build and deploy the JSTACK website.
+Tech Stack: HTML, CSS, JavaScript, PHP, MongoDB
 
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Usage](#usage)
-- [License](#license)
+A full-stack job and freelance portal designed to connect employers and job seekers with a dynamic, interactive, and secure platform. Users can post jobs, search and filter listings, apply for positions, and track applications.
 
-## Overview
-JSTACK is a web-based platform designed to streamline the job search process. It provides a user-friendly interface for both job seekers and employers to interact, search for jobs, and post job openings. With its clean and intuitive design, JSTACK aims to enhance the job hunting experience.
+🚀 Features
 
-## Features
-- Filter job listing throughout different categories
-- Dynamic job details page for every individual job listing
-- Job search functionality with filters
-- Job posting and management for employers
-- Responsive design for seamless experience across devices
-- Interactive and dynamic elements powered by JavaScript
-- Working contact us form
-- Project Link
-- 👉 https://prashanth-angadi.github.io/JSTACK-Job-Portal-Website/
-## Usage
-To use JSTACK, simply clone this repository to your local machine and open the `index.html` file in your preferred web browser. You can customize the website by editing the HTML, CSS, and JavaScript files as needed. Make sure to replace the placeholder images in the `img` directory with your own images.
+Job Posting: Employers can post jobs with validation forms
 
-## License
-This project is licensed under the MIT License.
-This README provides an overview of the JSTACK project, its features, file structure, usage instructions, guidelines for contributing, and licensing information. Adjust the sections and content as needed to fit your project.
+Dynamic Job Search: Search and filter by job type, salary range, and category
+
+Applicant Tracking: Track applications with real-time status updates
+
+Secure Transactions: Mock payment integration for secure data exchange
+
+Responsive UI/UX: Seamless navigation across desktops, tablets, and mobile devices
+
+🛠️ Tech Stack
+
+Frontend: HTML5, CSS3, JavaScript
+
+Backend: PHP for server-side logic
+
+Database: MongoDB for scalable and flexible data persistence
+
+Deployment: Hosted via GitHub Pages for frontend demo
+
+💡 How It Works
+
+Home Page: Browse latest jobs with search and filter options
+
+Job Posting: Employers can post jobs through validated forms
+
+Job Application: Users apply and track their application status
+
+Payment & Transactions: Mock integration to simulate secure exchanges
+
+🧠 Learning Outcome
+
+Built a full-stack web application integrating frontend, backend, and database
+
+Implemented dynamic search and filtering functionalities
+
+Learned PHP server-side logic and MongoDB database operations
+
+Gained experience designing responsive UI/UX and user-centric workflows
+
+📁 Project Structure (Highlights)
+src/
+ ├── css/             # Styling files
+ ├── js/              # Frontend scripts
+ ├── php/             # Backend logic (job posting, applicant tracking)
+ └── index.html       # Landing page
+database/
+ └── MongoDB collections for jobs, users, applications
+
+📷 Demo & Source Code
+
+Live Demo: https://github.com/Prashanth415/JSTACK-Job-Portal-Website/
+
+GitHub: Prashanth415/JSTACK-Job-Portal-Website
+
+📌 Author
+
+Prashanth A (Prashanth415)
+
+Tags: #PHP #JavaScript #HTML #CSS #MongoDB #JobPortal #FullStackWebApp
