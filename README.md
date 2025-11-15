@@ -57,9 +57,9 @@ database/
 
 📷 Demo & Source Code
 
-Live Demo: https://github.com/Prashanth415/JSTACK-Job-Portal-Website/
+Live Demo: https://prashanth-angadi.github.io/JSTACK-Job-Portal-Website/
 
-GitHub: Prashanth415/JSTACK-Job-Portal-Website
+GitHub: https://github.com/Prashanth415/JSTACK-Job-Portal-Website/
 
 📌 Author
 
