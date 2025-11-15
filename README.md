@@ -19,8 +19,11 @@ JSTACK is a web-based platform designed to streamline the job search process. It
 - Responsive design for seamless experience across devices
 - Interactive and dynamic elements powered by JavaScript
 - Working contact us form
-
+##Project Link
+👉 https://prashanth-angadi.github.io/JSTACK-Job-Portal-Website/
 ## Usage
+📌 Author
+Prashanth A (Prashanth415)
 To use JSTACK, simply clone this repository to your local machine and open the `index.html` file in your preferred web browser. You can customize the website by editing the HTML, CSS, and JavaScript files as needed. Make sure to replace the placeholder images in the `img` directory with your own images.
 
 ## License
